@@ -1,0 +1,5 @@
+*.gpg filter=gpg diff=gpg
+*.asc filter=gpg diff=gpg
+secretfile filter=git-crypt diff=git-crypt
+* filter=git-crypt diff=git-crypt
+.gitattributes !filter !diff !merge
